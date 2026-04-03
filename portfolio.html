@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyad AlSayed Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding-bottom: 80px;
+            font-family:'Cairo', sans-serif;
+            background: #0f172a;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header svg {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #94a3b8;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 10px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .experience-section .card {
+            margin-bottom: 30px;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill-tag {
+            background: #0ea5e9;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-block;
+        }
+
+        .skill-tag:hover {
+            background: #0284c7;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .company-logo {
+            width: 50px !important;
+            height: 50px !important;
+            min-width: 50px;
+            min-height: 50px;
+            flex-shrink: 0;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #cbd5f5;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #38bdf8;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        .card a:hover {
+            background-color: #38bdf8;
+            color: #0f172a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #64748b;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Eyad AlSayed</h1>
+        <p>Senior Mobile Application Developer | Crafting High-Impact Mobile Solutions for Business Success</p>
+        <div style="display: flex; gap: 25px; justify-content: center; margin-top: 40px; margin-bottom: 20px;"></div>
+        <div style="display: flex; gap: 25px; justify-content: center">
+            <!-- Flutter Logo -->
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter"
+                width="65" height="65">
+            <!-- Android Logo -->
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android"
+                width="65" height="65">
+            <!-- iOS/Apple Logo -->
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="iOS" width="65"
+                height="65" style="filter: brightness(0) invert(1);">
+        </div>
+
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Software Engineer with 6 years of experience in mobile application development.
+            I graduated in Information Technology Engineering, Software Engineering from Damascus University.
+            I specialize in building modern mobile applications using native Android technologies such as Java and
+            Kotlin, as well as cross-platform development with Flutter for Android and iOS.
+            I focus on creating responsive user interfaces, writing clean and maintainable code, and collaborating
+            effectively within teams while continuously learning new technologies.
+        </p>
+    </section>
+
+    <section class="experience-section">
+        <h2>Experience</h2>
+
+        <div class="card">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+                <img class="company-logo" src="https://media.licdn.com/dms/image/v2/D4D0BAQGk49rlYQYesA/company-logo_200_200/company-logo_200_200/0/1728992296178/spinnerscreativeagency_logo?e=2147483647&v=beta&t=eAu-q5tPoAZwY4zIRJbBhCfakkFZPrhJe2isof4qJI4" alt="Spinners Creative Agency" width="50"
+                    height="50" style="border-radius: 8px;">
+                <div style="flex: 1;">
+                    <h3 style="margin: 0 0 8px 0;">Senior Mobile Developer</h3>
+                    <p style="margin: 0 0 5px 0;"><strong>Spinners Creative Agency</strong> · Full-time</p>
+                    <p style="margin: 0 0 5px 0;">Nov 2024 - Present · 1 yr 6 mos</p>
+                    <p style="margin: 0 0 10px 0;">United Arab Emirates · Remote</p>
+                    <ul style="margin: 0;">
+                        <li>Implement and develop applications for Android and iOS systems, test and deploy the apps.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+                <img class="company-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFiqydh-LdxOJaJWLIqriUfoKVevuxX7IH6g&s" alt="Freelance" width="50" height="50"
+                    style="border-radius: 8px;">
+                <div style="flex: 1;">
+                    <h3 style="margin: 0 0 8px 0;">Freelance Mobile Application Developer</h3>
+                    <p style="margin: 0 0 5px 0;"><strong>Freelance</strong> · Freelance</p>
+                    <p style="margin: 0 0 5px 0;">Jan 2020 - Present · 6 yrs 4 mos</p>
+                    <p style="margin: 0 0 10px 0;">Remote</p>
+                    <ul style="margin: 0;">
+                        <li>Implement and develop applications for Android and iOS systems, test and deploy the apps.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+                <img class="company-logo" src="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/295983161_102826815862171_5777439112274187372_n.png?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=tqgUiAnsbBYQ7kNvwGbFexA&_nc_oc=AdqqU9kryyNjXkI4JB_drOQCMsXPvHAg7KEB084LzIg5a35ptk_Oni0-zLshTn9LKeQ&_nc_zt=23&_nc_ht=scontent-otp1-1.xx&_nc_gid=aZlD97PSYlFMj3K8DyxTZg&_nc_ss=7a3a8&oh=00_Af0UzPrEa5dD-HHbwKRCihE0izzoRTqINR6TOAJNE4sg3Q&oe=69D547B3" alt="90soft" width="50" height="50"
+                    style="border-radius: 8px;">
+                <div style="flex: 1;">
+                    <h3 style="margin: 0 0 8px 0;">Mobile Application Developer</h3>
+                    <p style="margin: 0 0 5px 0;"><strong>90soft</strong> · Full-time</p>
+                    <p style="margin: 0 0 5px 0;">May 2023 - Oct 2024 · 1 yr 6 mos</p>
+                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                    <ul style="margin: 0;">
+                        <li>Implement and develop applications for Android and iOS platforms, test and deploy the apps.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+                <img class="company-logo" src="https://play-lh.googleusercontent.com/31AxTUpqHB6DtTg2HpepjpzHCFyPloGi8HwJnB7KMp4bKZJbN65eD7g2DITKd-PaoA=w240-h480-rw" alt="DiGiShi" width="50" height="50"
+                    style="background-color: white;border-radius: 8px;">
+                <div style="flex: 1;">
+                    <h3 style="margin: 0 0 8px 0;">Mobile Application Developer</h3>
+                    <p style="margin: 0 0 5px 0;"><strong>DiGiShi</strong> · Part-time</p>
+                    <p style="margin: 0 0 5px 0;">Jun 2023 - Dec 2023 · 7 mos</p>
+                    <p style="margin: 0 0 10px 0;">Damascus Governorate, Syria · Remote</p>
+                    <ul style="margin: 0;">
+                        <li>Implement and develop applications for Android and iOS systems, test and deploy the apps.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+                   <img class="company-logo" src="https://play-lh.googleusercontent.com/31AxTUpqHB6DtTg2HpepjpzHCFyPloGi8HwJnB7KMp4bKZJbN65eD7g2DITKd-PaoA=w240-h480-rw" alt="DiGiShi" width="50" height="50"
+                    style="background-color: white;border-radius: 8px;">
+                <div style="flex: 1;">
+                    <h3 style="margin: 0 0 8px 0;">Mobile Application Developer</h3>
+                    <p style="margin: 0 0 5px 0;"><strong>DiGiShi</strong> · Full-time</p>
+                    <p style="margin: 0 0 5px 0;">Aug 2022 - May 2023 · 10 mos</p>
+                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                    <ul style="margin: 0;">
+                        <li>Implement and develop applications for Android and iOS systems, test and deploy the apps.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+                <img class="company-logo" src="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/268993149_104275742123412_4782437167119928966_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=h59qutl_9J4Q7kNvwFcmpjp&_nc_oc=AdrkjMoqEhahmOg8JW2CmAxbGKAvAncCLCtmMUCby-9HYdxA8djn1zuD8DosIcJvtEc&_nc_zt=23&_nc_ht=scontent-otp1-1.xx&_nc_gid=qCnTSUf1OFHXqz-EfW_3fQ&_nc_ss=7a3a8&oh=00_Af2WkJS2NcAdBQsEO03p9RQhse4BZjpQJP1zxuMnq2ULGg&oe=69D5700A" alt="OswaTech" width="50" height="50"
+                    style="border-radius: 8px;">
+                <div style="flex: 1;">
+                    <h3 style="margin: 0 0 8px 0;">Android Developer</h3>
+                    <p style="margin: 0 0 5px 0;"><strong>OswaTech</strong> · Full-time</p>
+                    <p style="margin: 0 0 5px 0;">Jan 2021 - Aug 2022 · 1 yr 8 mos</p>
+                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                    <ul style="margin: 0;">
+                        <li>Implement and develop applications for Android system, test and deploy the apps.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div style="display: flex; gap: 15px; align-items: flex-start;">
+                <img class="company-logo" src="https://media.licdn.com/dms/image/v2/C5603AQHp0BIa8ul2Cg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1611681836392?e=1776902400&v=beta&t=CUzErhNXx0CIjgpYjfnrDjndhZzgni9EvjrEFNVBr78" alt="Tuqaatech" width="50" height="50"
+                    style="border-radius: 8px;">
+                <div style="flex: 1;">
+                    <h3 style="margin: 0 0 8px 0;">Android Developer</h3>
+                    <p style="margin: 0 0 5px 0;"><strong>Tuqaatech</strong> · Full-time</p>
+                    <p style="margin: 0 0 5px 0;">Jul 2020 - Dec 2020 · 6 mos</p>
+                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                    <ul style="margin: 0;">
+                        <li>Implement and develop applications for Android system, test and deploy the apps.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+
+
+        <div class="projects">
+
+            <!-- PROJECT 1 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/esYmWybgQ1XfZEqwJUQ0Fkxrb-xxFYCB9XfOMBT5-csapXOs3W9pteuLXq3yvELw4gKrdgtGxA3vP1752dJgLg=w480-h960-rw"
+                    alt="Shamex" style="background: white;" />
+                <h3>Shamex</h3>
+                <p>Shamex — Your Ultimate Shopping Destination. Discover effortless shopping with the latest fashion,
+                    gadgets, home essentials, and exclusive deals, all on your fingertips.</p>
+
+                <a href="https://play.google.com/store/apps/details?id=com.soft.ABO&hl=en" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+
+                <a href="https://apps.apple.com/ae/app/shamex/id6751715497" target="_blank" rel="noopener">Open in App
+                    Store</a>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/zyQGosuES0M1_HEx8vP9hT9IlmYaPG_4Kj3HkGYRf5Wmu66vQYMyd5juBaxv6nKitg=w480-h960-rw"
+                    alt="ABO" />
+                <h3>ABO Store</h3>
+                <p>First shop in Iraq specialized in high quality pajamas with top brands, providing a unique shopping
+                    experience.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.soft.ABO&hl=en" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/us/app/abo-store/id6444841672" target="_blank" rel="noopener">Open in
+                    App Store</a>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/Z04ZOI1fRgDLtA7Lb5Emm-NPuloaX7aNdbKr_5EqEQEu1vM2ilfoVYS1Tfv_bjvmPRw=w480-h960-rw"
+                    alt="Foodify" />
+                <h3>Foodify</h3>
+                <p>Welcome to Foodify app, your solution for quick, fresh, and reliable food delivery from the best
+                    local restaurants. Order faster, easier and enjoy your favorite meals in a few taps.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.ninteysoft.foodify&hl=en_US" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/ca/app/foodify/id6584520177" target="_blank" rel="noopener">Open in App
+                    Store</a>
+            </div>
+
+            <!-- PROJECT 4 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/Nl0joa8y7aColcBJ8H2_FCt1lfdzhItmo_3QDBUUSNpDbyayni9MBols8O2OA0SZoB4=w480-h960-rw"
+                    alt="Takkeh" />
+                <h3>Takkeh</h3>
+                <p>Takkeh is a marketplace app for product management and sales with broad catalog and features for
+                    buyers and sellers.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.ninteysoft.takkeh&hl=en_US" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/search?term=Takkeh" target="_blank" rel="noopener">Open in App Store</a>
+            </div>
+
+            <!-- PROJECT 5 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/0Q3SVQ730V2QFqSQDdOGP5DHlOEZLtfqK7nUBtBlPQqtzYfrw4Elw09ZKh-SuW8eI58=w480-h960-rw"
+                    alt="Wahaj" />
+                <h3>Wahaj</h3>
+                <p>If you live in Riyadh and look for the best weekend places, Wahaj App lets you access tourist,
+                    entertainment, sports and health events and experiences quickly.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.wahaj.app&hl=en_US" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/search?term=Wahaj" target="_blank" rel="noopener">Open in App Store</a>
+            </div>
+
+            <!-- PROJECT 6 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/ltggW4BXWtfLzhtc6J4COWzupYXpVZjR7w1XbBqsPRwychc5fGE0_XyyVTj86rNscuSL=w480-h960-rw"
+                    alt="BusSat" />
+                <h3>BusSat</h3>
+                <p>Never miss a beat with the BusSat Parent App: track your child's school bus journey in real-time,
+                    receive alerts for arrivals and delays, and manage multiple children in one app.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.soft.echo_school&hl=en" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/us/app/bussat/id6478271334" target="_blank" rel="noopener">Open in App
+                    Store</a>
+            </div>
+
+            <!-- PROJECT 7 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/K-Sum6AtXW93EAr9ymOD7OBr8tEuVCoyVWv6rcSeRLsTh4O5qZqVw4Paj7_fvwg8Vg=w480-h960-rw"
+                    alt="Kafo" />
+                <h3>Kafo</h3>
+                <p>Kafo is a donation management system that automates case verification and contributions, keeping
+                    donors updated with progress and transparency.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.soft.kafo&hl=de" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/search?term=Kafo" target="_blank" rel="noopener">Open in App Store</a>
+            </div>
+
+            <!-- PROJECT 8 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/31AxTUpqHB6DtTg2HpepjpzHCFyPloGi8HwJnB7KMp4bKZJbN65eD7g2DITKd-PaoA=w480-h960-rw"
+                    alt="Digishi" style="background: white;" />
+                <h3>Digishi</h3>
+                <p>Online shopping for makeup, electronics, home goods and more, with big discounts and daily offers,
+                    express delivery, and local & international brands.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.digishi.android&hl=en" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/ca/app/digishi/id1458072154" target="_blank" rel="noopener">Open in App
+                    Store</a>
+            </div>
+
+            <!-- PROJECT 9 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/KL6FnjAv0YxJNJAPRiDSOnKTWxq4nF3ytPQKpJLkp1Sj8jylJ5J68IPw0Bdd-NXqL3s=w480-h960-rw"
+                    alt="Wasel Delivery" />
+                <h3>Wasel Delivery</h3>
+                <p>Wasel Delivery is a logistics service app for fast, reliable shipments and tracking.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.wasel.delivery&hl=en" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/search?term=Wasel%20Delivery" target="_blank" rel="noopener">Open in App
+                    Store</a>
+            </div>
+
+            <!-- PROJECT 10 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/l2zjtcx9o9zvrOMx_pZmr9Ftl_ZsX1Thpj6LEneXQ1ecax15J8DMGR3XvZKuQ7jrzCrR=w480-h960-rw"
+                    alt="Fitnet" />
+                <h3>Fitnet: Your Gym Partner</h3>
+                <p>Fitnet App helps track gym performance, calories, exercise visuals, coaching, and personalized plans
+                    for trainees and coaches.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.fitnet.app.gym.fitnet_application&hl=en_US"
+                    target="_blank" rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/nl/app/fitnet-your-gym-partner/id6444032576" target="_blank"
+                    rel="noopener">Open in App Store</a>
+            </div>
+
+            <!-- PROJECT 11 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/u-wDK1ZFoaiGikx_sG2JJ2a57t_UoZAoG7vVaQSgO0KRVAsirvJ9OZi4RyoVtKrezqs=w480-h960-rw"
+                    alt="Sawa Express" />
+                <h3>Sawa Express</h3>
+                <p>Sawa Express is an online store app offering computers, clothing, and more, with price comparisons
+                    and order tracking.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.oswateck.sawaexpress&hl=fr" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/us/app/sawa-express-store/id1644155152" target="_blank"
+                    rel="noopener">Open in App Store</a>
+            </div>
+
+            <!-- PROJECT 12 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/nJgFeJDcx45VUMxLDxR3wwnYYbb3kml4p5ZTBOZ63F5d1Uzrca8YHnaIfItwZTunZxE=w480-h960-rw"
+                    alt="Sawa Express Vendor" />
+                <h3>Sawa Express Vendor</h3>
+                <p>A seller app for Sawa Express online store vendors to manage listings and orders.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.oswatech.sawaexpressvendor&hl=en_GB"
+                    target="_blank" rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/us/app/sawa-express-vendor/id1631156676" target="_blank"
+                    rel="noopener">Open in App Store</a>
+            </div>
+
+            <!-- PROJECT 13 -->
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/eAwayqyjZlr2qC4lnIW1q31tSerO6WrXTryoyrYNOaeLSrted7qrPgjGNypV2xabHtg=w480-h960-rw"
+                    alt="Magic Car" style="background: white;" />
+                <h3>Magic Car</h3>
+                <p>An app providing passenger transport for short and long trips, with economy to luxury options and
+                    delivery service.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.oswatech.magiccar&hl=en" target="_blank"
+                    rel="noopener">Open in Google Play</a>
+                <a href="https://apps.apple.com/us/app/magiccar/id1604843411" target="_blank" rel="noopener">Open in App
+                    Store</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-tag">Flutter</div>
+            <div class="skill-tag">Dart</div>
+            <div class="skill-tag">Kotlin</div>
+            <div class="skill-tag">Java</div>
+            <div class="skill-tag">Swift</div>
+            <div class="skill-tag">Android</div>
+            <div class="skill-tag">iOS</div>
+            <div class="skill-tag">Firebase</div>
+            <div class="skill-tag">REST APIs</div>
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">GetX</div>
+            <div class="skill-tag">SQLite</div>
+            <div class="skill-tag">Agile/Scrum</div>
+            <div class="skill-tag">UI/UX Design</div>
+            <div class="skill-tag">API Integration</div>
+            <div class="skill-tag">Mobile Testing</div>
+            <div class="skill-tag">CI/CD</div>
+            <div class="skill-tag">Performance Optimization</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="vertical-align: middle; margin-right: 8px;">
+                <path
+                    d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.26 2.67.76 3.88a1 1 0 01-.21 1.11l-2.43 2.43z"
+                    fill="#fff" />
+            </svg>
+            Phone: <a href="tel:+963991423014" style="color: #38bdf8; text-decoration: none;">+963991423014</a>
+        </p>
+        <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="vertical-align: middle; margin-right: 8px;">
+                <path
+                    d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4.99l-8 5-8-5V6l8 5 8-5v2.99z"
+                    fill="#fff" />
+            </svg>
+            Email: <a href="mailto:eyadan.900@gmail.com"
+                style="color: #38bdf8; text-decoration: none;">eyadan.900@gmail.com</a>
+        </p>
+        <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="vertical-align: middle; margin-right: 8px;">
+                <path
+                    d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.38v4.59h-3v-9h2.88v1.23h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v4.74z"
+                    fill="#fff" />
+            </svg>
+            LinkedIn: <a href="https://www.linkedin.com/in/eyad-alsayed/" target="_blank" rel="noopener"
+                style="color: #38bdf8; text-decoration: none;">https://www.linkedin.com/in/eyad-alsayed/</a>
+        </p>
+        <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="vertical-align: middle; margin-right: 8px;">
+                <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.385.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.754-1.333-1.754-1.089-.744.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.809 1.305 3.495.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.958-.266 1.986-.399 3.003-.404 1.017.005 2.045.138 3.005.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.873.12 3.176.77.84 1.235 1.91 1.235 3.221 0 4.61-2.804 5.628-5.475 5.921.43.371.815 1.103.815 2.222 0 1.606-.015 2.896-.015 3.286 0 .32.216.694.825.576 4.765-1.588 8.198-6.084 8.198-11.385 0-6.627-5.373-12-12-12z"
+                    fill="#fff" />
+            </svg>
+            GitHub: <a href="https://github.com/EyadAlSayed" target="_blank" rel="noopener"
+                style="color: #38bdf8; text-decoration: none;">https://github.com/EyadAlSayed</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Eyad Alsayed</p>
+    </footer>
+
+</body>
+
+</html>
