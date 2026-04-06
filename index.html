@@ -5,7 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eyad AlSayed Portfolio</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6LC7QEV3RM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'G-6LC7QEV3RM');
+    </script>
     <style>
         body {
             margin: 0;
@@ -90,18 +98,53 @@
             transform: translateY(-5px);
         }
 
+        .job-card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+            margin: 0 0 30px 0;
+        }
+
+        .job-content {
+            flex: 1;
+        }
+
+        .job-content h3 {
+            margin: 0 0 8px 0;
+        }
+
+        .job-content p {
+            margin: 0 0 5px 0;
+        }
+
+        .job-content ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        .company-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
         .card img {
             width: 100%;
             border-radius: 10px;
             margin-bottom: 10px;
+            object-fit: cover;
+            background-color: white;
         }
 
-        .company-logo {
-            width: 50px !important;
-            height: 50px !important;
-            min-width: 50px;
-            min-height: 50px;
-            flex-shrink: 0;
+        .card img.img-soa {
+            height: 280px;
+            object-fit: contain;
+            background-color: #4bbca8;
         }
 
         .card h3 {
@@ -196,123 +239,109 @@
 
     <section class="experience-section">
         <h2>Experience</h2>
+        <div class="job-card">
+            <img class="company-logo"
+                src="https://media.licdn.com/dms/image/v2/D4D0BAQGk49rlYQYesA/company-logo_200_200/company-logo_200_200/0/1728992296178/spinnerscreativeagency_logo?e=2147483647&v=beta&t=eAu-q5tPoAZwY4zIRJbBhCfakkFZPrhJe2isof4qJI4"
+                alt="Spinners Creative Agency">
 
-        <div class="card">
-            <div style="display: flex; gap: 15px; align-items: flex-start;">
-                <img class="company-logo"
-                    src="https://media.licdn.com/dms/image/v2/D4D0BAQGk49rlYQYesA/company-logo_200_200/company-logo_200_200/0/1728992296178/spinnerscreativeagency_logo?e=2147483647&v=beta&t=eAu-q5tPoAZwY4zIRJbBhCfakkFZPrhJe2isof4qJI4"
-                    alt="Spinners Creative Agency" width="50" height="50" style="border-radius: 8px;">
-                <div style="flex: 1;">
-                    <h3 style="margin: 0 0 8px 0;">Senior Flutter Developer</h3>
-                    <p style="margin: 0 0 5px 0;"><strong>Spinners Creative Agency</strong> · Full-time</p>
-                    <p style="margin: 0 0 5px 0;">Nov 2024 - Present · 1 yr 6 mos</p>
-                    <p style="margin: 0 0 10px 0;">United Arab Emirates · Hybrid</p>
-                    <ul style="margin: 0;">
-                        <li>Collaborate with designers and backend teams to deliver high-quality features
-                        </li>
-                        <li>Improve app performance, code quality, and maintainability
-                        </li>
-                    </ul>
-                </div>
+            <div class="job-content">
+                <h3>Senior Flutter Developer</h3>
+                <p><strong>Spinners Creative Agency</strong> · Full-time</p>
+                <p>Nov 2024 - Present · 1 yr 6 mos</p>
+                <p>United Arab Emirates · Hybrid</p>
+
+                <ul>
+                    <li>Collaborate with designers and backend teams to deliver high-quality features</li>
+                    <li>Improve app performance, code quality, and maintainability</li>
+                </ul>
             </div>
         </div>
 
 
-
-        <div class="card">
-            <div style="display: flex; gap: 15px; align-items: flex-start;">
-                <img class="company-logo"
-                    src="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/295983161_102826815862171_5777439112274187372_n.png?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=tqgUiAnsbBYQ7kNvwGbFexA&_nc_oc=AdqqU9kryyNjXkI4JB_drOQCMsXPvHAg7KEB084LzIg5a35ptk_Oni0-zLshTn9LKeQ&_nc_zt=23&_nc_ht=scontent-otp1-1.xx&_nc_gid=aZlD97PSYlFMj3K8DyxTZg&_nc_ss=7a3a8&oh=00_Af0UzPrEa5dD-HHbwKRCihE0izzoRTqINR6TOAJNE4sg3Q&oe=69D547B3"
-                    alt="90soft" width="50" height="50" style="border-radius: 8px;">
-                <div style="flex: 1;">
-                    <h3 style="margin: 0 0 8px 0;">Lead Flutter Developer</h3>
-                    <p style="margin: 0 0 5px 0;"><strong>90soft</strong> · Full-time</p>
-                    <p style="margin: 0 0 5px 0;">May 2023 - Oct 2024 · 1 yr 6 mos</p>
-                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
-                    <ul style="margin: 0;">
-                        <li>Lead development of scalable Flutter applications for multiple clients
-                        </li>
-                        <li>Implemented clean architecture and modern state management solutions
-                        </li>
-                    </ul>
-                </div>
+        <div class="job-card">
+            <img class="company-logo"
+                src="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/295983161_102826815862171_5777439112274187372_n.png?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=tqgUiAnsbBYQ7kNvwGbFexA&_nc_oc=AdqqU9kryyNjXkI4JB_drOQCMsXPvHAg7KEB084LzIg5a35ptk_Oni0-zLshTn9LKeQ&_nc_zt=23&_nc_ht=scontent-otp1-1.xx&_nc_gid=aZlD97PSYlFMj3K8DyxTZg&_nc_ss=7a3a8&oh=00_Af0UzPrEa5dD-HHbwKRCihE0izzoRTqINR6TOAJNE4sg3Q&oe=69D547B3"
+                alt="90soft" width="50" height="50" style="border-radius: 8px;">
+            <div style="flex: 1;">
+                <h3 style="margin: 0 0 8px 0;">Lead Flutter Developer</h3>
+                <p style="margin: 0 0 5px 0;"><strong>90soft</strong> · Full-time</p>
+                <p style="margin: 0 0 5px 0;">May 2023 - Oct 2024 · 1 yr 6 mos</p>
+                <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                <ul style="margin: 0;">
+                    <li>Lead development of scalable Flutter applications for multiple clients
+                    </li>
+                    <li>Implemented clean architecture and modern state management solutions
+                    </li>
+                </ul>
             </div>
         </div>
 
 
-        <div class="card">
-            <div style="display: flex; gap: 15px; align-items: flex-start;">
-                <img class="company-logo"
-                    src="https://play-lh.googleusercontent.com/31AxTUpqHB6DtTg2HpepjpzHCFyPloGi8HwJnB7KMp4bKZJbN65eD7g2DITKd-PaoA=w240-h480-rw"
-                    alt="DiGiShi" width="50" height="50" style="background-color: white;border-radius: 8px;">
-                <div style="flex: 1;">
-                    <h3 style="margin: 0 0 8px 0;">Java Kotlin & Flutter Developer</h3>
-                    <p style="margin: 0 0 5px 0;"><strong>DiGiShi</strong> · Full-time</p>
-                    <p style="margin: 0 0 5px 0;">Aug 2022 - May 2023 · 10 mos</p>
-                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
-                    <ul style="margin: 0;">
-                        <li>Built e-commerce mobile applications with payment and user authentication features
-                        </li>
-                        <li>Integrated APIs and improved UI/UX for better user experience
-                        </li>
-                    </ul>
-                </div>
+        <div class="job-card">
+            <img class="company-logo"
+                src="https://play-lh.googleusercontent.com/31AxTUpqHB6DtTg2HpepjpzHCFyPloGi8HwJnB7KMp4bKZJbN65eD7g2DITKd-PaoA=w240-h480-rw"
+                alt="DiGiShi" width="50" height="50" style="background-color: white;border-radius: 8px;">
+            <div style="flex: 1;">
+                <h3 style="margin: 0 0 8px 0;">Java Kotlin & Flutter Developer</h3>
+                <p style="margin: 0 0 5px 0;"><strong>DiGiShi</strong> · Full-time</p>
+                <p style="margin: 0 0 5px 0;">Aug 2022 - May 2023 · 10 mos</p>
+                <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                <ul style="margin: 0;">
+                    <li>Built e-commerce mobile applications with payment and user authentication features
+                    </li>
+                    <li>Integrated APIs and improved UI/UX for better user experience
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <div class="card">
-            <div style="display: flex; gap: 15px; align-items: flex-start;">
-                <img class="company-logo"
-                    src="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/268993149_104275742123412_4782437167119928966_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=h59qutl_9J4Q7kNvwFcmpjp&_nc_oc=AdrkjMoqEhahmOg8JW2CmAxbGKAvAncCLCtmMUCby-9HYdxA8djn1zuD8DosIcJvtEc&_nc_zt=23&_nc_ht=scontent-otp1-1.xx&_nc_gid=qCnTSUf1OFHXqz-EfW_3fQ&_nc_ss=7a3a8&oh=00_Af2WkJS2NcAdBQsEO03p9RQhse4BZjpQJP1zxuMnq2ULGg&oe=69D5700A"
-                    alt="OswaTech" width="50" height="50" style="border-radius: 8px;">
-                <div style="flex: 1;">
-                    <h3 style="margin: 0 0 8px 0;">Android Java & Flutter Developer</h3>
-                    <p style="margin: 0 0 5px 0;"><strong>OswaTech</strong> · Full-time</p>
-                    <p style="margin: 0 0 5px 0;">Jan 2021 - Aug 2022 · 1 yr 8 mos</p>
-                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
-                    <ul style="margin: 0;">
-                        <li>Developed and maintained mobile apps using Android native and Flutter</li>
-                        <li>Collaborated with team members to deliver features on time
-                        </li>
-                    </ul>
-                </div>
+        <div class="job-card">
+            <img class="company-logo"
+                src="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/268993149_104275742123412_4782437167119928966_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=h59qutl_9J4Q7kNvwFcmpjp&_nc_oc=AdrkjMoqEhahmOg8JW2CmAxbGKAvAncCLCtmMUCby-9HYdxA8djn1zuD8DosIcJvtEc&_nc_zt=23&_nc_ht=scontent-otp1-1.xx&_nc_gid=qCnTSUf1OFHXqz-EfW_3fQ&_nc_ss=7a3a8&oh=00_Af2WkJS2NcAdBQsEO03p9RQhse4BZjpQJP1zxuMnq2ULGg&oe=69D5700A"
+                alt="OswaTech" width="50" height="50" style="border-radius: 8px;">
+            <div style="flex: 1;">
+                <h3 style="margin: 0 0 8px 0;">Android Java & Flutter Developer</h3>
+                <p style="margin: 0 0 5px 0;"><strong>OswaTech</strong> · Full-time</p>
+                <p style="margin: 0 0 5px 0;">Jan 2021 - Aug 2022 · 1 yr 8 mos</p>
+                <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                <ul style="margin: 0;">
+                    <li>Developed and maintained mobile apps using Android native and Flutter</li>
+                    <li>Collaborated with team members to deliver features on time
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <div class="card">
-            <div style="display: flex; gap: 15px; align-items: flex-start;">
-                <img class="company-logo"
-                    src="https://media.licdn.com/dms/image/v2/C5603AQHp0BIa8ul2Cg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1611681836392?e=1776902400&v=beta&t=CUzErhNXx0CIjgpYjfnrDjndhZzgni9EvjrEFNVBr78"
-                    alt="Tuqaatech" width="50" height="50" style="border-radius: 8px;">
-                <div style="flex: 1;">
-                    <h3 style="margin: 0 0 8px 0;">Android Java Developer</h3>
-                    <p style="margin: 0 0 5px 0;"><strong>Tuqaatech</strong> · Full-time</p>
-                    <p style="margin: 0 0 5px 0;">Jul 2020 - Dec 2020 · 6 mos</p>
-                    <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
-                    <ul style="margin: 0;">
-                        <li>Developed native Android applications using Java</li>
-                        <li>Worked with REST APIs and implemented core app features
-                        </li>
-                    </ul>
-                </div>
+        <div class="job-card">
+            <img class="company-logo"
+                src="https://media.licdn.com/dms/image/v2/C5603AQHp0BIa8ul2Cg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1611681836392?e=1776902400&v=beta&t=CUzErhNXx0CIjgpYjfnrDjndhZzgni9EvjrEFNVBr78"
+                alt="Tuqaatech" width="50" height="50" style="border-radius: 8px;">
+            <div style="flex: 1;">
+                <h3 style="margin: 0 0 8px 0;">Android Java Developer</h3>
+                <p style="margin: 0 0 5px 0;"><strong>Tuqaatech</strong> · Full-time</p>
+                <p style="margin: 0 0 5px 0;">Jul 2020 - Dec 2020 · 6 mos</p>
+                <p style="margin: 0 0 10px 0;">Damascus, Syria · On-site</p>
+                <ul style="margin: 0;">
+                    <li>Developed native Android applications using Java</li>
+                    <li>Worked with REST APIs and implemented core app features
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <div class="card">
-            <div style="display: flex; gap: 15px; align-items: flex-start;">
-                <img class="company-logo"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFiqydh-LdxOJaJWLIqriUfoKVevuxX7IH6g&s"
-                    alt="Freelance" width="50" height="50" style="border-radius: 8px;">
-                <div style="flex: 1;">
-                    <h3 style="margin: 0 0 8px 0;">Freelance Mobile Application Developer</h3>
-                    <p style="margin: 0 0 5px 0;"><strong>Freelance</strong></p>
-                    <p style="margin: 0 0 5px 0;">Jan 2020 - Present · 6 yrs 4 mos</p>
-                    <p style="margin: 0 0 10px 0;">Contract | Project-Based | Hourly Freelance</p>
-                    <ul style="margin: 0;">
-                        <li>Implement and develop applications for Android and iOS systems, test and deploy the apps.
-                        </li>
-                    </ul>
-                </div>
+        <div class="job-card">
+            <img class="company-logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFiqydh-LdxOJaJWLIqriUfoKVevuxX7IH6g&s"
+                alt="Freelance" width="50" height="50" style="border-radius: 8px;">
+            <div style="flex: 1;">
+                <h3 style="margin: 0 0 8px 0;">Freelance Mobile Application Developer</h3>
+                <p style="margin: 0 0 5px 0;"><strong>Freelance</strong></p>
+                <p style="margin: 0 0 5px 0;">Jan 2020 - Present · 6 yrs 4 mos</p>
+                <p style="margin: 0 0 10px 0;">Contract | Project-Based | Hourly Freelance</p>
+                <ul style="margin: 0;">
+                    <li>Implement and develop applications for Android and iOS systems, test and deploy the apps.
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -327,7 +356,7 @@
             <!-- PROJECT 1 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/esYmWybgQ1XfZEqwJUQ0Fkxrb-xxFYCB9XfOMBT5-csapXOs3W9pteuLXq3yvELw4gKrdgtGxA3vP1752dJgLg=w480-h960-rw"
-                    alt="Shamex" style="background: white; height: 200;" />
+                    alt="Shamex" />
                 <h3>Shamex</h3>
                 <p>Shamex — Your Ultimate Shopping Destination
                     Discover the joy of effortless shopping with Shamex! Whether you're hunting for the latest fashion,
@@ -348,7 +377,7 @@
             <!-- PROJECT 2 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/zyQGosuES0M1_HEx8vP9hT9IlmYaPG_4Kj3HkGYRf5Wmu66vQYMyd5juBaxv6nKitg=w480-h960-rw"
-                    alt="ABO style=height: 200;" />
+                    alt="ABO" />
                 <h3>ABO Store</h3>
                 <p>First shop in Iraq specialist by high quality pajamas with best brands, we take you in different
                     experiment</p>
@@ -365,7 +394,7 @@
             <!-- PROJECT 3 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/Z04ZOI1fRgDLtA7Lb5Emm-NPuloaX7aNdbKr_5EqEQEu1vM2ilfoVYS1Tfv_bjvmPRw=w480-h960-rw"
-                    alt="Foodify style =height: 200;" />
+                    alt="Foodify" />
                 <h3>Foodify</h3>
                 <p>Welcome to Foodify app, your solution for quick, fresh, and reliable food delivery from the best
                     local restaurants! We make ordering food simpler, faster, and more enjoyable, ensuring that your
@@ -380,9 +409,12 @@
             </div>
 
             <div class="card">
-                <img src="assets/foodify_delivery.png" alt="Foodify Captain style=height: 200;" />
+                <img src="assets/foodify_delivery.png" alt="Foodify Captain" />
                 <h3>Foodify Captain</h3>
-                <p>An application for tracking and deliver orders by captain for Foodify
+                <p>The Foodify Delivery Captain App is a powerful, modern, and efficient mobile application designed
+                    specifically for delivery partners (captains) working within the Foodify ecosystem. It serves as the
+                    operational backbone for managing deliveries, tracking orders in real time, optimizing delivery
+                    workflows, and ensuring a seamless experience for both customers and restaurant partners.
                 </p>
 
 
@@ -391,7 +423,7 @@
             <!-- PROJECT 4 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/Nl0joa8y7aColcBJ8H2_FCt1lfdzhItmo_3QDBUUSNpDbyayni9MBols8O2OA0SZoB4=w480-h960-rw"
-                    alt="Takkeh style=height: 200;" />
+                    alt="Takkeh" />
                 <h3>Takkeh</h3>
                 <p>Experience our amazing app that provides quick and convenient access to the latest news and public
                     posts about people and public life. Enjoy an easy-to-use interface, stay connected with engaging
@@ -410,7 +442,7 @@
             <!-- PROJECT 5 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/0Q3SVQ730V2QFqSQDdOGP5DHlOEZLtfqK7nUBtBlPQqtzYfrw4Elw09ZKh-SuW8eI58=w480-h960-rw"
-                    alt="Wahaj style =height: 200;" />
+                    alt="Wahaj" />
                 <h3>Wahaj</h3>
                 <p>If you love your city, and are looking for the best places and events in Abha and Khamis Mushait,
                     then you are in the right place. “Wahaj Application” is a comprehensive application for
@@ -427,7 +459,7 @@
             <!-- PROJECT 6 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/ltggW4BXWtfLzhtc6J4COWzupYXpVZjR7w1XbBqsPRwychc5fGE0_XyyVTj86rNscuSL=w480-h960-rw"
-                    alt="BusSat style =height: 200;" />
+                    alt="BusSat" />
                 <h3>BusSat</h3>
                 <p>Never miss a beat with the BusSat Parent App. Track your child's school bus journey in real-time,
                     receive alerts and notifications for bus arrivals, and stay updated on any changes or delays—all at
@@ -446,7 +478,7 @@
             <!-- PROJECT 7 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/K-Sum6AtXW93EAr9ymOD7OBr8tEuVCoyVWv6rcSeRLsTh4O5qZqVw4Paj7_fvwg8Vg=w480-h960-rw"
-                    alt="Kafo style=height: 200;" />
+                    alt="Kafo" />
                 <h3>Kafo</h3>
                 <p>Kafo is a software system that automates donation process to assure integrity which will encourage
                     more donors to help needy cases.
@@ -463,7 +495,7 @@
             </div>
 
             <div class="card">
-                <img src="assets/pstore.png" alt="P Store style=height: 200;" />
+                <img src="assets/pstore.png" alt="P Store" />
                 <h3>P Store</h3>
                 <p>Welcome to P Store, your ultimate shopping destination! Enjoy the simplicity of our user-friendly
                     interface, designed to make every browsing and purchasing experience a breeze. P-Store is dedicated
@@ -474,7 +506,7 @@
             <!-- PROJECT 8 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/31AxTUpqHB6DtTg2HpepjpzHCFyPloGi8HwJnB7KMp4bKZJbN65eD7g2DITKd-PaoA=w480-h960-rw"
-                    alt="Digishi" style="background: white; height: 200;" />
+                    alt="Digishi" />
                 <h3>Digishi</h3>
                 <p>DiGiShi is the best app and online shopping store for all your needs. Enjoy the supermarket service
                     and express delivery service for all food items offered at the best prices and from the best
@@ -494,16 +526,13 @@
             </div>
 
             <div class="card">
-                <img src="assets/digishi_devliery.png" alt="Digishi" style="background: white; height: 200;" />
+                <img src="assets/digishi_devliery.png" alt="Digishi" />
                 <h3>Digishi Delivery</h3>
-                <p>DiGiShi is the best app and online shopping store for all your needs. Enjoy the supermarket service
-                    and express delivery service for all food items offered at the best prices and from the best
-                    sources.
-
-                    Browse our online store and shop from the largest selection of fashion products, in addition to
-                    accessories and purses. Enjoy shopping from the best selection of mobile phones and electronic
-                    accessories that suit your budget. Enjoy your best appearance with a distinctive selection of
-                    cosmetics, skin, hair and body care products.
+                <p>
+                    The Digishi Delivery App is a powerful and efficient delivery management application designed for
+                    delivery partners (captains) working within the Digishi ecosystem. It enables smooth, fast, and
+                    organized handling of delivery operations, ensuring that orders are picked up and delivered
+                    accurately and on time.
                 </p>
 
             </div>
@@ -512,7 +541,7 @@
             <!-- PROJECT 9 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/KL6FnjAv0YxJNJAPRiDSOnKTWxq4nF3ytPQKpJLkp1Sj8jylJ5J68IPw0Bdd-NXqL3s=w480-h960-rw"
-                    alt="Wasel style=height: 200;" />
+                    alt="Wasel" />
                 <h3>Wasel</h3>
                 <p>Wasel, an electronic application that provides delivery services of all kinds, where the user can:
                     Ordering and purchasing products from the stores available within the application, and specifying
@@ -523,7 +552,7 @@
             </div>
 
             <div class="card">
-                <img src="assets/wasel_delivery.jpg" alt="Wasel Driver style=height: 200;" />
+                <img src="assets/wasel_delivery.jpg" alt="Wasel Driver" />
                 <h3>Wasel Driver</h3>
                 <p>Wasel, an electronic application that provides delivery services of all kinds, where the user can:
                     Ordering and purchasing products from the stores available within the application, and specifying
@@ -541,7 +570,7 @@
             <!-- PROJECT 10 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/l2zjtcx9o9zvrOMx_pZmr9Ftl_ZsX1Thpj6LEneXQ1ecax15J8DMGR3XvZKuQ7jrzCrR=w480-h960-rw"
-                    alt="Fitnet style=height: 200;" />
+                    alt="Fitnet" />
                 <h3>Fitnet: Your Gym Partner</h3>
                 <p>
                     Fitnet App is on a mission to make your healthy lifestyle more enjoyable by making it easier to
@@ -560,7 +589,7 @@
             <!-- PROJECT 11 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/u-wDK1ZFoaiGikx_sG2JJ2a57t_UoZAoG7vVaQSgO0KRVAsirvJ9OZi4RyoVtKrezqs=w480-h960-rw"
-                    alt="Sawa Express style=height: 200;" />
+                    alt="Sawa Express" />
                 <h3>Sawa Express</h3>
                 <p>Sawa Express, an online store that offers a lot of products such as personal computers, clothes and
                     much more, with many amazing offers and the possibility of comparing the prices of products
@@ -578,7 +607,7 @@
             <!-- PROJECT 12 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/nJgFeJDcx45VUMxLDxR3wwnYYbb3kml4p5ZTBOZ63F5d1Uzrca8YHnaIfItwZTunZxE=w480-h960-rw"
-                    alt="Sawa Express Vendor style=height: 200;" />
+                    alt="Sawa Express Vendor" />
                 <h3>Sawa Express Vendor</h3>
                 <p>Sawa Express Sellers, an online store that offers a lot of products such as personal computers,
                     clothes and
@@ -597,7 +626,7 @@
             <!-- PROJECT 13 -->
             <div class="card">
                 <img src="https://play-lh.googleusercontent.com/eAwayqyjZlr2qC4lnIW1q31tSerO6WrXTryoyrYNOaeLSrted7qrPgjGNypV2xabHtg=w480-h960-rw"
-                    alt="Magic Car" style="background: white;height: 200;" />
+                    alt="Magic Car" />
                 <h3>Magic Car</h3>
                 <p>An app providing passenger transport for short and long trips, with economy to luxury options and
                     delivery service.</p>
@@ -611,16 +640,25 @@
 
             <!-- PROJECT 14 -->
             <div class="card">
-                <img src="assets/soa.jpg" alt="SOA" style="background: white;height: 200;" />
+                <img src="assets/soa.jpg" class="img-soa" alt="SOA" />
                 <h3>SOA</h3>
-                <p>Task management app integrated with many systems , like : comunda .. etc</p>
+                <p>Task Management App – System Integration & Workflow Automation
+
+                    This is a powerful task management application designed to streamline and organize workflows across
+                    multiple systems. The app enables efficient task tracking, assignment, and execution while
+                    integrating seamlessly with external workflow engines such as Camunda and other enterprise systems.
+                </p>
 
             </div>
 
             <div class="card">
-                <img src="assets/dayout.jpg" alt="Dayout" style="background: white;height: 200;" />
+                <img src="assets/dayout.jpg" alt="Dayout" />
                 <h3>Dayout</h3>
-                <p>An application for organizing trips and inquiring about tourist areas suitable for a trip
+                <p>Dayout is a travel planning application designed to help users easily organize trips and discover the
+                    best tourist destinations. It allows users to explore and inquire about suitable travel locations
+                    based on their preferences, making trip planning simple, fast, and enjoyable. Whether you’re
+                    planning a short getaway or a full-day adventure, Dayout helps you find the perfect places to visit
+                    and organize your journey efficiently with a smooth and user-friendly experience.
                 </p>
 
             </div>
