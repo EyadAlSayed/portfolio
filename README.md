@@ -1,109 +1,112 @@
-# Eyad AlSayed – Senior Mobile Developer
+# Eyad AlSayed  
+### Senior Mobile Engineer (Flutter | Android | iOS)
 
-Welcome to my portfolio 🚀  
-This website showcases my experience, skills, and a selection of production-ready mobile applications I’ve built over the past 6+ years.
-
-## 👨‍💻 About Me
-Senior Mobile Application Developer with 6+ years of experience building high-quality Android and iOS applications.
-
-I specialize in:
-- Native Android development (Java & Kotlin)
-- Cross-platform development using Flutter
-- Designing scalable architectures and clean codebases
-- Delivering performant, user-focused mobile solutions
-
-I hold a degree in Software Engineering from Damascus University and continuously strive to learn and apply modern technologies.
+🚀 Building scalable, high-performance mobile applications used in real-world production environments.
 
 ---
 
-## 💼 Experience
-- **Senior Flutter Developer** – Spinners Creative Agency (UAE)  
-- **Lead Flutter Developer** – 90soft  
-- **Flutter & Native Developer** – DiGiShi  
-- **Android & Flutter Developer** – OswaTech  
-- **Android Developer** – Tuqaatech  
-- **Freelance Mobile Developer** – Ongoing  
+## 👨‍💻 Profile
+Senior Mobile Engineer with 6+ years of experience delivering production-grade Android and cross-platform applications.
 
-Key contributions:
-- Led development of scalable mobile apps for multiple clients  
-- Implemented clean architecture and modern state management  
-- Improved performance, maintainability, and user experience  
-- Collaborated closely with design and backend teams  
+Specialized in:
+- Scalable Flutter architectures
+- Native Android development (Kotlin & Java)
+- Building multi-app ecosystems (user, driver, vendor)
+- Performance optimization & clean architecture
+
+I focus on transforming complex business requirements into reliable, maintainable, and user-centric mobile solutions.
 
 ---
 
-## 📱 Featured Projects
-A selection of real-world applications published on Google Play and App Store:
+## 💼 Experience Highlights
+- **Senior Flutter Developer** — Spinners Creative Agency (UAE)  
+- **Lead Flutter Developer** — 90soft  
+- **Mobile Developer** — DiGiShi, OswaTech, Tuqaatech  
+- **Freelance Mobile Developer** — Multiple international clients  
 
-- **Shamex** – Full-featured e-commerce platform  
-- **ABO Store** – Retail shopping app  
-- **Foodify & Foodify Captain** – Food delivery ecosystem (user + driver apps)  
-- **Takkeh** – Social/news content platform  
-- **Wahaj** – Events & tourism discovery app  
-- **BusSat** – Real-time school bus tracking system  
-- **Kafo** – Donation management platform  
-- **Digishi & Digishi Delivery** – E-commerce + logistics system  
-- **Wasel & Wasel Driver** – Delivery service platform  
-- **Fitnet** – Fitness tracking & coaching app  
-- **Sawa Express (User & Vendor)** – Marketplace ecosystem  
-- **Magic Car** – Ride-hailing application  
-- **SOA** – Workflow & task management system (Camunda integration)  
-- **Dayout** – Travel planning app  
-
-These projects demonstrate:
-- Production-level architecture  
-- Complex backend integrations  
-- Real-time systems & logistics apps  
-- Multi-app ecosystems (user, vendor, driver)  
+### Key Contributions
+- Led development of **scalable mobile applications** across multiple industries  
+- Architected apps using **Clean Architecture + modern state management (BloC, Riverpod, GetX)**  
+- Delivered **end-to-end mobile solutions** (UI, APIs, real-time features)  
+- Improved app performance, maintainability, and release cycles  
+- Collaborated cross-functionally with product, backend, and design teams  
 
 ---
 
-## 🛠️ Tech Stack
+## 📱 Selected Projects
+A curated selection of production applications:
+
+### 🛒 E-commerce & Marketplaces
+- **Shamex / Digishi / Sawa Express**
+  - Full-scale shopping platforms with payments, catalogs, and order tracking  
+  - Multi-role systems (user, vendor, admin)
+
+### 🚚 Delivery & Logistics Systems
+- **Foodify Ecosystem (User + Captain Apps)**  
+- **Wasel (User + Driver Apps)**  
+  - Real-time order tracking and delivery workflows  
+  - Socket-based updates and optimized routing logic  
+
+### 📍 Tracking & Real-Time Systems
+- **BusSat**
+  - Real-time school bus tracking with notifications and live updates  
+
+### 💪 Health & Lifestyle
+- **Fitnet**
+  - Fitness tracking, coaching system, and performance monitoring  
+
+### 🧠 Systems & Workflow Tools
+- **SOA Task Manager**
+  - Workflow automation with external system integration (e.g. Camunda)
+
+---
+
+## 🛠️ Technical Expertise
+
 **Mobile Development**
 - Flutter (Dart)
-- Android (Java, Kotlin)
+- Android (Kotlin, Java)
 - iOS (Swift)
 
-**Architecture & Tools**
+**Architecture & Patterns**
 - Clean Architecture
-- Design Patterns
 - SOLID Principles
+- Design Patterns
 
 **State Management**
-- BloC
-- Riverpod
-- GetX
+- BloC, Riverpod, GetX
 
 **Backend & Integration**
 - REST APIs
 - Firebase
-- Socket.IO
+- Socket.IO (real-time systems)
 
-**Storage**
-- Hive
-- ObjectBox
+**Local Storage**
+- Hive, ObjectBox
 
-**Other**
-- Git
-- CI/CD
+**Practices & Tools**
+- Git & CI/CD
 - Agile / Scrum
+- Testing & Debugging
 - Performance Optimization
 - UI/UX Implementation
-- Testing
 
 ---
 
-## 🌐 Live Portfolio
+## 🌐 Portfolio
 👉 https://eyadalsayed.github.io/portfolio/
 
 ---
 
 ## 📫 Contact
 - 📧 Email: eyadan.900@gmail.com  
-- 📱 Phone: +963991423014  
 - 💼 LinkedIn: https://www.linkedin.com/in/eyad-alsayed/  
 - 💻 GitHub: https://github.com/EyadAlSayed  
 
 ---
 
-⭐️ If you find this portfolio useful or interesting, feel free to star the repository!
+## 💡 What I Bring
+- Strong ownership from idea → production  
+- Experience building **real-world, scalable mobile systems**  
+- Clean, maintainable, and team-friendly codebases  
+- Ability to work across **product, design, and backend teams**  
