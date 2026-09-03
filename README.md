@@ -19,6 +19,7 @@ I focus on transforming complex business requirements into reliable, maintainabl
 ---
 
 ## 💼 Experience Highlights
+- **Senior Flutter Developer** — MOVO Delivery (Damascus, Syria, Hybrid) · Full-time · May 2026 - Present
 - **Senior Flutter Developer** — Spinners Creative Agency (UAE)  
 - **Lead Flutter Developer** — 90soft  
 - **Mobile Developer** — DiGiShi, OswaTech, Tuqaatech  
@@ -36,12 +37,23 @@ I focus on transforming complex business requirements into reliable, maintainabl
 ## 📱 Selected Projects
 A curated selection of production applications:
 
+### 🚚 MOVO Delivery
+- Movo is an application where you can quickly and easily order from the most famous restaurants, pharmacies, groceries, and flower shops available in the app.
+- [Google Play](https://play.google.com/store/apps/details?id=com.movo.movouser) · [App Store](https://apps.apple.com/us/app/movo-delivery/id1487602510)
+
+### 🤝 MOVO Partner
+- The app helps MOVO partners receive, process, and manage orders, generate reports, check performance, and more.
+- [Google Play](https://play.google.com/store/apps/details?id=com.movo.partner) · [App Store](https://apps.apple.com/us/app/movo-partner/id6720730834) · [Web Dashboard](https://new-partner.movo.delivery/)
+
 ### 🛒 E-commerce & Marketplaces
 - **Shamex / Digishi / Sawa Express**
   - Full-scale shopping platforms with payments, catalogs, and order tracking  
   - Multi-role systems (user, vendor, admin)
 
 ### 🚚 Delivery & Logistics Systems
+- **MOVO Delivery**
+  - Built delivery and fleet management mobile applications with real-time tracking and driver features
+  - Integrated backend APIs and optimized UI/UX to improve delivery operations and user experience
 - **Foodify Ecosystem (User + Captain Apps)**  
 - **Wasel (User + Driver Apps)**  
   - Real-time order tracking and delivery workflows  
