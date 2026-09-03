@@ -19,7 +19,7 @@ I focus on transforming complex business requirements into reliable, maintainabl
 ---
 
 ## 💼 Experience Highlights
-- **Senior Flutter Developer** — MOVO Delivery (Damascus, Syria, Hybrid) · Full-time · May 2026 - Present
+- **Senior Flutter & Android Kotlin Developer** — MOVO Delivery (Damascus, Syria, Hybrid) · Full-time · May 2026 - Present
 - **Senior Flutter Developer** — Spinners Creative Agency (UAE)  
 - **Lead Flutter Developer** — 90soft  
 - **Mobile Developer** — DiGiShi, OswaTech, Tuqaatech  
